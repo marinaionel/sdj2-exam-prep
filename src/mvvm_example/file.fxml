@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextArea?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="332.0" prefWidth="357.0" style="-fx-background-color: linear-gradient(to right, #11998e, #38ef7d);" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mvvm_example.View">
+   <children>
+      <Pane layoutX="15.0" layoutY="15.0" prefHeight="302.0" prefWidth="326.0" style="-fx-background-color: white;">
+         <children>
+            <Label layoutX="55.0" layoutY="14.0" prefHeight="25.0" prefWidth="217.0" text="Convert text to uppercase" textAlignment="CENTER" textFill="#979696" wrapText="true">
+               <font>
+                  <Font name="Funkydori" size="27.0" />
+               </font>
+            </Label>
+            <JFXTextArea fx:id="text" focusColor="#00ff22" layoutX="51.0" layoutY="74.0" prefHeight="105.0" prefWidth="223.0" />
+            <JFXButton fx:id="button" buttonType="RAISED" layoutX="87.0" layoutY="223.0" onAction="#onButton" prefHeight="36.0" prefWidth="151.0" style="-fx-background-color: linear-gradient(to right, #11998e, #38ef7d);" text="TO UPPERCASE" textFill="WHITE">
+               <font>
+                  <Font name="Open Sans Semibold" size="14.0" />
+               </font>
+            </JFXButton>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

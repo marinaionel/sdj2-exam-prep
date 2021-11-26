@@ -22,7 +22,6 @@ public class Testing {
 
     @Before
     public void setUp() {
-        System.out.println("Starting testing!");
         tester = new Multiplicator();
     }
 
